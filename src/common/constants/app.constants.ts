@@ -1,0 +1,13 @@
+export const BCRYPT_SALT_ROUNDS = 12;
+export const JWT_ACCESS_EXPIRY_DEFAULT = '15m';
+export const IDEMPOTENCY_TTL_HOURS = 24;
+export const MOCK_BANK_MIN_DELAY_MS = 100;
+export const MOCK_BANK_MAX_DELAY_MS = 3000;
+export const RETRY_BASE_DELAY_MS = 500;
+export const RETRY_MAX_DELAY_MS = 10000;
+export const RETRY_MAX_RETRIES = 3;
+export const RETRY_MAX_ATTEMPTS = 1 + RETRY_MAX_RETRIES;
+export const RETRY_JITTER_MAX_MS = 500;
+export const CARDS_PAGE_DEFAULT = 1;
+export const CARDS_LIMIT_DEFAULT = 20;
+export const CARDS_LIMIT_MAX = 100;

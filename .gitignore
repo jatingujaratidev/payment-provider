@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+test/.e2e-db
+*.log
+.DS_Store
